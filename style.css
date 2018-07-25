@@ -61,6 +61,7 @@ table img {
   margin: 5px;
   opacity: 0.85;
   transition: width 0.5s;
+  transition-timing-function: ease-in-out;
 }
 table img:hover {
   opacity: 1;
@@ -104,6 +105,11 @@ table p {
 }
 #sidebar i {
   font-size: 1.5rem;
+  transition: font-size 0.5s;
+  transition-timing-function: ease-in-out;
+}
+#sidebar i:hover {
+  font-size: 1.7rem;
 }
 #page-content {
   margin-left: 5vw;
