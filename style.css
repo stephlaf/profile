@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: rgba(45, 45, 45, 0.9);
+}
+h1, h2 {
+  font-family: 'Rokkitt', serif;
+}
+h1 {
+  font-size: 2.2rem;
+  color: rgba(30, 30, 30, 1);
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.15rem;
+  color: rgba(30, 30, 30, 0.7)
+}
+.container {
+  width: 60vw;
+  margin: 0 auto;
+}
+.card {
+  background-color: rgb(253, 253, 253);
+  padding: 15px 15px 20px 15px;
+  margin: 15px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgb(200, 200, 200);
+}
+.text-align {
+  text-align: center;
+}
+
+a, li {
+  color: rgb(35, 35, 35);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(30, 30, 30, 0.6);
+  font-size: 105%;
+}
+li {
+  list-style: none;
+  padding: 0;
+}
+i {
+  margin: 5px;
+}
+#steph {
+  border-radius: 50%;
+  width: 120px;
+  margin-top: 10px;
+}
+table img {
+  width: 200px;
+  margin: 5px;
+  opacity: 0.7;
+  transition: width 0.5s;
+}
+table img:hover {
+  opacity: 1;
+  width: 203px;
+}
+table p {
+  font-size: 1.05rem;
+  padding: 0 10px;
+  margin: 5px;
+}
+.btn-color {
+  background-color: #6293B3;
+  color: rgb(245, 245, 245);
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+.btn-color:hover {
+  background-color: #507F9D;
+  color: white;
+  font-size: 1.4rem;
+}
+.list-inline {
+  padding: 0;
+}
+.list-inline li {
+  display: inline-block;
+  margin: 5px;
+}
