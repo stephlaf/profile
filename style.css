@@ -99,6 +99,12 @@ table p {
   background-color: rgba(20, 20, 20, 0.6);
   text-align: center;
 }
+#sidebar ul {
+  padding: 0;
+}
+#sidebar i {
+  font-size: 1.5rem;
+}
 #page-content {
   margin-left: 5vw;
 }
