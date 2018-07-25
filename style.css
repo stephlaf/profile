@@ -78,6 +78,8 @@ table p {
   padding: 7px;
   border-radius: 4px;
   font-size: 1.3rem;
+  transition: all 0.3s;
+  transition-timing-function: ease-in-out;
 }
 .btn-color:hover {
   background-color: #507F9D;
