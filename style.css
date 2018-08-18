@@ -59,6 +59,11 @@ i {
   border-radius: 50%;
   width: 120px;
   margin-top: 10px;
+  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3)
+}
+#logo-le-wagon {
+  height: 80px;
+
 }
 table img {
   width: 190px;
