@@ -120,3 +120,55 @@ table p {
 #page-content {
   margin-left: 5vw;
 }
+
+
+/*Responsive stuff*/
+
+@media (min-width: 741px) {
+   #films-tablet {
+    display: none;
+  }
+   #films-mobile {
+    display: none;
+  }
+}
+
+/*Tablets*/
+
+@media (max-width: 740px) {
+  #films-desktop {
+    display: none;
+  }
+   #films-mobile {
+    display: none;
+  }
+  #sidebar i {
+    font-size: 1.25rem;
+  }
+}
+/*Mobile*/
+
+@media (max-width: 380px) {
+  #films-desktop {
+    display: none;
+  }
+  #films-tablet {
+    display: none;
+  }
+  table img {
+    width: 100px;
+    margin: 5px;
+  }
+  table img:hover {
+    width: 103px;
+  }
+  table p {
+    font-size: 1.05rem;
+  }
+  #sidebar {
+    width: 10vw;
+  }
+  #sidebar i {
+    font-size: 1rem;
+  }
+}
