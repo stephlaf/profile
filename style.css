@@ -46,7 +46,7 @@ a {
 }
 a:hover {
   color: rgba(30, 30, 30, 0.6);
-  font-size: 102%;
+  text-decoration: none;
 }
 li {
   list-style: none;
@@ -55,11 +55,16 @@ li {
 i {
   margin: 5px;
 }
+#social {
+  color: rgba(30, 30, 30, 0.6);
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
 #steph {
   border-radius: 50%;
   width: 120px;
   margin: 10px auto 0;
-  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3)
+  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3);
 }
 #logo-le-wagon {
   height: 80px;
@@ -97,6 +102,7 @@ tr {
 .btn-color {
   background-color: #507F9D;
   color: rgb(247, 247, 247);
+  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3);
   width: 38%;
   transition: all 0.3s;
   transition-timing-function: ease-in-out;
