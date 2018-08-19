@@ -95,18 +95,19 @@ tr {
   align-items: center;
 }
 .btn-color {
-  background-color: #6293B3;
-  color: rgb(245, 245, 245);
+  background-color: #507F9D;
+  color: rgb(247, 247, 247);
   width: 38%;
-  /*font-size: 1.3rem;*/
   transition: all 0.3s;
   transition-timing-function: ease-in-out;
   margin: 0 auto;
 }
 .btn-color:hover {
-  background-color: #507F9D;
-  color: white;
+  background-color: transparent;
+  color: #426881;
+  font-weight: bold;
   font-size: 1.25rem;
+  border: 1px solid #426881;
 }
 .list-inline {
   padding: 0;
@@ -125,7 +126,7 @@ tr {
   text-align: center;
 }
 #sidebar ul {
-  padding: 0;
+  padding: 15px 0 0 0;
 }
 #sidebar i {
   font-size: 1.5rem;
