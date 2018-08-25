@@ -60,6 +60,14 @@ i {
   font-size: 1.6rem;
   margin-bottom: 0;
 }
+#tools {
+  display: flex;
+  justify-content: space-between;
+
+}
+#tools img {
+  height: 100px;
+}
 #steph {
   border-radius: 50%;
   width: 120px;
@@ -151,6 +159,8 @@ tr {
 
 
 /*Responsive stuff*/
+
+/*Laptop - Desktop*/
 
 @media (min-width: 741px) {
    #films-tablet {
