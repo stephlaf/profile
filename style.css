@@ -67,21 +67,22 @@ i {
 }
 #tools img {
   height: 100px;
+  margin-bottom: 15px;
 }
 #steph {
   border-radius: 50%;
   width: 120px;
   margin: 10px auto 0;
-  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3);
+  box-shadow: 1px 1px 4px rgba(80, 80, 80, 0.3);
 }
 #logo-le-wagon {
   height: 80px;
 
 }
 table img {
-  width: 190px;
+  width: 250px;
   margin: 5px;
-  opacity: 0.85;
+  opacity: 0.9;
   transition: 0.3s;
   transition-timing-function: ease;
 }
