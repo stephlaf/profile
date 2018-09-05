@@ -7,10 +7,10 @@ body {
 }
 h1, h2 {
   font-family: 'Rokkitt', serif;
+  color: rgba(30, 30, 30, 1);
 }
 h1 {
   font-size: 2.2rem;
-  color: rgba(30, 30, 30, 1);
 }
 h2 {
   font-size: 1.8rem;
@@ -23,16 +23,22 @@ h4 {
   font-size: 0.95rem;
   font-weight: 300;
 }
-.container {
+p {
+  font-size: 1.05rem;
+}
+.phone {
+  font-size: 0.95rem;
+}
+.container-main {
   width: 75%;
   margin: 0 auto;
 }
 .card {
   background-color: rgb(253, 253, 253);
-  padding: 15px 15px 20px 15px;
+  padding: 15px 25px 20px 25px;
   margin: 15px;
   border-radius: 4px;
-  box-shadow: 1px 1px 1px rgb(200, 200, 200);
+  box-shadow: 1px 1px 3px rgba(110, 110, 110, 0.3);
 }
 .text-align {
   text-align: center;
@@ -55,6 +61,18 @@ li {
 i {
   margin: 5px;
 }
+.row-margin {
+  margin-bottom: 25px;
+}
+.col-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.col-carousel {
+  box-shadow: 1px 1px 3px rgba(110, 110, 110, 0.3);
+}
 #social {
   color: rgba(30, 30, 30, 0.6);
   font-size: 1.6rem;
@@ -73,7 +91,7 @@ i {
   border-radius: 50%;
   width: 120px;
   margin: 10px auto 0;
-  box-shadow: 1px 1px 4px rgba(80, 80, 80, 0.3);
+  box-shadow: 1px 1px 3px rgba(110, 110, 110, 0.3);
 }
 #logo-le-wagon {
   height: 80px;
@@ -85,6 +103,10 @@ table img {
   opacity: 0.9;
   transition: 0.3s;
   transition-timing-function: ease;
+}
+#qigong {
+  height: 250px;
+  width: auto;
 }
 
 table img:hover {
@@ -100,6 +122,7 @@ table p {
 tr {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .td-text {
@@ -111,7 +134,7 @@ tr {
 .btn-color {
   background-color: #507F9D;
   color: rgb(247, 247, 247);
-  box-shadow: 1px 1px 8px rgba(180, 180, 180, 0.3);
+  box-shadow: 1px 1px 3px rgba(110, 110, 110, 0.3);
   width: 38%;
   transition: all 0.3s;
   transition-timing-function: ease-in-out;
@@ -157,6 +180,16 @@ tr {
 #page-content {
   margin-left: 5vw;
 }
+#footer i {
+  font-size: 1.5rem;
+  transition: 0.3s;
+  transition-timing-function: ease;
+  color: rgba(35, 35, 35, 0.6);
+}
+#footer i:hover {
+  font-size: 1.55rem;
+  color: rgba(30, 30, 30, 0.6);
+}
 
 
 /*Responsive stuff*/
@@ -199,7 +232,7 @@ tr {
     margin: 5px;
   }
   table img:hover {
-    width: 103px;
+    /*width: 103px;*/
   }
   table p {
     font-size: 1.05rem;
