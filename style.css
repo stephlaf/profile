@@ -15,6 +15,10 @@ h1 {
 h2 {
   font-size: 1.8rem;
 }
+h2 i {
+  font-size: 1.4rem;
+  color: rgba(45, 45, 45, 0.9);
+}
 h3 {
   font-size: 1.25rem;
   color: rgba(30, 30, 30, 0.7)
@@ -67,8 +71,8 @@ i {
 .col-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .col-carousel {
   box-shadow: 1px 1px 3px rgba(110, 110, 110, 0.3);
@@ -81,7 +85,6 @@ i {
 #tools {
   display: flex;
   justify-content: space-between;
-
 }
 #tools img {
   height: 100px;
@@ -95,7 +98,10 @@ i {
 }
 #logo-le-wagon {
   height: 80px;
-
+}
+#qigong {
+  height: 250px;
+  width: auto;
 }
 table img {
   width: 250px;
@@ -104,21 +110,14 @@ table img {
   transition: 0.3s;
   transition-timing-function: ease;
 }
-#qigong {
-  height: 250px;
-  width: auto;
-}
-
 table img:hover {
   opacity: 1;
 }
-
 table p {
   font-size: 1.05rem;
   padding: 0 10px;
   margin: 5px;
 }
-
 tr {
   display: flex;
   align-items: center;
@@ -208,7 +207,7 @@ tr {
 /*Tablets*/
 
 @media (max-width: 740px) {
-  #films-desktop {
+  #others-desktop {
     display: none;
   }
    #films-mobile {
@@ -221,7 +220,7 @@ tr {
 /*Mobile*/
 
 @media (max-width: 380px) {
-  #films-desktop {
+  #others-desktop {
     display: none;
   }
   #films-tablet {
