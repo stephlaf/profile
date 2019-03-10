@@ -51,13 +51,15 @@ p {
 }
 
 a, li {
-  color: rgb(35, 35, 35);
+  color: #507F9D;
+  /*color: rgb(35, 35, 35);*/
 }
 a {
   text-decoration: none;
 }
 a:hover {
-  color: rgba(30, 30, 30, 0.6);
+  color: #r3B5D73;
+  /*color: rgba(30, 30, 30, 0.6);*/
   text-decoration: none;
 }
 li {
